@@ -491,7 +491,7 @@ Content-Type: application/json;charset=UTF-8
 
 The API takes an Access Token or Refresh Token and revokes it. Revoked tokens are considered inactive at the introspection endpoint. A client may only revoke its own tokens.
 
-> Because this endpoint works with the [Okta AS](/standards/OAuth/index.html#authorization-servers), you don't need an authorization server ID.
+> Because this endpoint works with the [Okta Authorization Server](/standards/OAuth/index.html#authorization-servers), you don't need an authorization server ID.
 
 #### Request Parameters
 
@@ -902,7 +902,7 @@ https://www.example.com/#error=invalid_scope&error_description=The+requested+sco
 
 The API returns Access Tokens, ID Tokens, and Refresh Tokens, depending on the request parameters. 
 
->Because this endpoint works with the [Okta AS](/standards/OAuth/index.html#authorization-servers), you don't need an authorization server ID.
+>Because this endpoint works with the [Okta Authorization Server](/standards/OAuth/index.html#authorization-servers), you don't need an authorization server ID.
 
 #### Request Parameters
 
